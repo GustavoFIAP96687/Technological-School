@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: #F1F5F9;
+  background: #020617;
+}
+.custom-font {
+  color: #F1F5F9;
+  font-family: Montserrat Subrayada;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+.background-nav{
+  background-color: #00272D;
+}
+.background-image {
+  background-image: url('../app/imagens/imagemHome.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.footer p {
+  margin: 0; 
+  font-size: 14px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%; 
+  padding: 10px;
+  gap: 12px; 
+  position: fixed;
+  bottom: 0; 
+  background-color: #232323; 
+  text-align: center;
+}
+
+
+
